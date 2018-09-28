@@ -27,7 +27,7 @@ public class SignController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        //These items are for configuring the RadioButtons
+
 
     }
 
@@ -42,14 +42,7 @@ public class SignController implements Initializable {
             System.out.println(e);
             flag = true;
         }
-//        if (Integer.parseInt(this.heightTextField.getText())) {
-//            errorMessage.append("->first name\n");
-//            flag = true;
-//        }
-//        if (widthTextField.getText().isEmpty()) {
-//            errorMessage.append("->last name\n");
-//            flag = true;
-//        }
+
         try {
             int tempWidth = Integer.parseInt(this.widthTextField.getText());
         } catch (NumberFormatException e) {
